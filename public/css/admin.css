@@ -1,0 +1,181 @@
+body 
+{
+    background-color: lightgray;
+}
+#login-dp{   
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.theme-button-color
+{
+    color:#38c172;
+}
+.login-body {
+  background-image: url('../images/user/loginbackground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Numans', sans-serif;
+
+  height: 100vh;
+  min-height: 500px;
+  background-position: center;
+  }
+
+  .login-card{
+  height: 370px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(0,0,0,0.5) !important;
+  }
+  
+  .login-card-header h3{
+  color: white;
+  }
+  
+  
+  
+  input:focus{
+  outline: 0 0 0 0  !important;
+  box-shadow: 0 0 0 0 !important;
+  
+  }
+  
+  .remember{
+  color: white;
+  }
+  
+  .remember input
+  {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+  }
+  
+  .login_btn{
+  color: black;
+  background-color: #FFC312;
+  width: 100px;
+  }
+  
+  .login_btn:hover{
+  color: black;
+  background-color: white;
+  }
+  
+  .login-links{
+  color: white;
+  }
+  
+  .login-links a{
+  margin-left: 4px;
+  }
+  .login-input-group-prepend span{
+    width: 300px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+    }
+ .admin-body
+ {
+  background-color:rgb(100, 146, 134);
+ }
+ .sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 10px;
+  cursor: pointer;
+  background-color: #38c172;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#app {
+  transition: margin-left .5s;
+  padding: 16px;
+}   
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+.nav-tabs .nav-link {
+  background-color: lightgray; 
+}
+.nav-tabs .nav-item {
+  margin-bottom: -1px;
+  margin-left: 5px;
+}

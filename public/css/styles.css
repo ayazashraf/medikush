@@ -1,0 +1,93 @@
+
+.banner-text-h1 {
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: "Ivar Headline","Ivar Headline Subset","Times New Roman",serif;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    -webkit-letter-spacing: 0px;
+    -moz-letter-spacing: 0px;
+    -ms-letter-spacing: 0px;
+    letter-spacing: 0px;
+    text-transform: none;
+  }
+
+  .banner-text-h2 
+  {
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: "Open Sans",Tahoma,Geneva,sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    -webkit-letter-spacing: 0px;
+    -moz-letter-spacing: 0px;
+    -ms-letter-spacing: 0px;
+    letter-spacing: 0px;
+    text-transform: none;
+    margin: 32px;
+    margin-top: 24px;
+  }
+  .banner-text-bedroom-h2 
+  {
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: "Open Sans",Tahoma,Geneva,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    -webkit-letter-spacing: 0px;
+    -moz-letter-spacing: 0px;
+    -ms-letter-spacing: 0px;
+    letter-spacing: 0px;
+    text-transform: none;
+    margin-top: 10px;
+  }
+  .banner-input-search
+  {
+    color: #2A2A33;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: "Open Sans",Tahoma,Geneva,sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    -webkit-letter-spacing: 0px;
+    -moz-letter-spacing: 0px;
+    -ms-letter-spacing: 0px;
+    letter-spacing: 0px;
+    text-transform: none;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 20px;
+    height: 70px;
+    line-height: 24px;
+    width: 60%;
+  }
+  .masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('http://locahost/images/home/banner/banner_2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .half-width
+  {
+      width:50%;
+  }
+  .shadow
+{
+    opacity:0.8;
+}
+.max-logo
+{
+      max-height: 50px;
+}
